@@ -1,3 +1,5 @@
+// https://www.sitepoint.com/multilingual-support-for-angularjs/
+
 var app = angular.module('Multilingual', ['ui.router', 'pascalprecht.translate']);
 
 app.config(['$stateProvider','$translateProvider', function($stateProvider, $translateProvider) {
